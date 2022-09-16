@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 180vh;
+  width: 100%;
+}
+
+body .content {
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+body .content .title_box {
+  height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .content .title_box header {
+  width: 85%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+body .content .title_box header h1 {
+  color: #4c4e61;
+  font-size: 1.7rem;
+  font-weight: 200;
+}
+
+body .content .title_box header h1 span {
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+body .content .title_box p {
+  width: 85%;
+  text-align: center;
+  color: #a3a5ae;
+}
+
+body .content .cards_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .content .cards_box section {
+  height: 40vh;
+}
+
+body .content .cards_box .card_2 {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .content .cards_box .card_2 article {
+  height: 45%;
+}
+
+body .content .cards_box article {
+  height: 90%;
+  width: 85%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 12px 13px 0px #a3a5ae;
+          box-shadow: 0px 12px 13px 0px #a3a5ae;
+}
+
+body .content .cards_box article img {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+footer {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
