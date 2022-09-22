@@ -111,3 +111,55 @@ body{
 footer{
     display: none;
 }
+
+@media screen and (min-width:1440px) {
+    body{
+        height: 100vh;
+        .content{
+            .title_box{
+                height: 55vh;
+                
+                header{
+                    width: 30%;
+                    h1,h1 span{
+                        font-size: 2rem;
+                    }
+                }
+                p{
+                    width: 35%;
+                }
+            }
+            .cards_box{
+                flex-grow: 1;
+                flex-direction: row;
+                width: 85%;
+                margin: 0 auto;
+                article{
+                    width: 90%;
+                }
+                .card_1, .card_3{
+                    flex-basis: 33%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    article{
+                        flex-basis: 45%;
+                        margin-top: 0;
+                    }
+                }
+                .card_1{
+                    margin-left: 1%;
+                }
+                .card_3{
+                    margin-right: 1%;
+                }
+                .card_2{
+                    flex-basis: 33%;
+                }
+                
+            }
+        }
+
+    }
+}
